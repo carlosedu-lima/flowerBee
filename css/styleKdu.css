@@ -1,0 +1,121 @@
+body{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 85px;
+    letter-spacing: 4px;
+}
+/* a{
+    color: black;
+
+    text-decoration: none;
+} */
+#background{
+    margin: -85px;
+    width: 110.8%;
+    background-image: url(img\pexels-chuanyu-2231469.jpg);
+}
+ul#nav{
+    display:inline-flex;
+}
+ul#nav li{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+section{
+    /* background-color: #bbd5dd; */
+
+    display: flex;
+    
+    margin:8.2px -8px;
+    margin-bottom: -8px;
+    text-align: center;
+}
+/* 
+div#cabecalho{
+    background-color: #fee100;
+
+    width: auto;
+    height: 96px;
+
+    margin: -8px -8px;
+    
+    text-align: center;
+} */
+form#login{
+    background-color: #fee00085;
+    border-radius: 10px;
+
+    width: 432px;
+    height: 700px;
+
+    margin: 25px;
+    margin-right: 200px;
+    padding-top: 50px;
+
+    text-align: center;
+}
+form#login h1{
+    font-size: 40pt;
+
+    margin-bottom: 150px;
+}
+form#cadastro{
+    background-color: #071013c0;
+    border-radius: 10px;
+
+    width: 736px;
+    height: 700px;
+
+    margin: 25px;
+    margin-left: 190px;
+    padding-top: 50px;
+
+    text-align: center;
+}
+form#cadastro h1{
+    color: white;
+
+    font-size: 40pt;
+
+    margin-bottom: 100px;
+    
+}
+h2{
+    color: white;
+
+    font-size: 23pt;
+}
+p input{
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+
+    width: 287px;
+    height: 40px;
+    text-align: center;
+}
+p.primeiro{
+    margin-top: 0px;
+}
+img{
+    width: 29px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+button {
+    border: none;
+    border-radius: 11px;
+
+    width: 230px;
+    height: 101px;
+
+    font-size: 20pt;
+    font-weight: bold;
+}
+button#login{
+    background-color: #071013d7;
+    color: white;
+}

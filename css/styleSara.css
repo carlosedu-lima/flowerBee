@@ -1,0 +1,561 @@
+
+/* configurações gerais */
+main{
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+margin: 85px;
+}
+a{
+    color: #8d8d8d;
+    text-decoration: none;
+}
+i{
+    font-size: large;
+    font-weight: normal;
+    color: #333333;
+}
+h1{
+    letter-spacing: 4px;
+    font-size: 45;
+    text-align: center;
+}
+h2{
+    letter-spacing: 2px;
+    font-size: 28; 
+    text-align: center;
+}
+h3{
+    color: #333333;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 25%;
+}
+
+/* configurações "about us/sobre nós" */
+main .about .containerPeople {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+#logo{
+    height: 504px;
+    width: auto;
+    float: left;
+}
+#title-flower-bee{
+    margin-top: 50px;
+    margin-left: 645px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#text-flower-bee{
+    height: 250px;
+    margin-top: 45px;
+    margin-left: 540px;
+    margin-right: 45px;
+    line-height: 40px;
+    text-align: justify;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+main .flowerB{
+    background-color: #fee00070;
+    margin-left: -100px;
+    margin-right: -85px;
+}
+#title-origem{
+    margin-top: 100px;
+    margin-right: 750px;
+    margin-bottom: 1px;
+    padding-top: 30px;
+    text-align: right;
+}
+#text-origem{
+    height: 330px;
+    margin-right: 720px;
+    margin-left: 110px;
+    margin-bottom: 60px;
+    line-height: 40px;
+    text-align: justify;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#gif-apicultores{
+    float: right;
+    height: 530px;
+    width: auto;
+    border-radius: 10%;
+}
+#foto-membro{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* configurações "produtos/products" */
+main .containerProducts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main .containerProducts .button-product{
+    width: 340px;
+    height: 290px;
+    margin-bottom: 85px;
+}
+#botao-produto{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10%;
+    padding: inherit;
+}
+#foto-produto{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+#titulo-produto{
+    margin-left: 470px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+#produto{
+    margin-left: 470px;
+    text-align: justify;
+    font-size: larger;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+#pesquisa{
+    width: 450px;
+    height: 1000px;
+    background-color: #fee100;
+    float: left;
+    border-radius: 5%;
+    
+}
+  .filtroDiff {
+    float: left;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f3de21;
+    line-height: 100px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 70px;
+    display: none;
+    width: 200px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+.colFilter{
+    display: flex;
+    align-items: center;
+
+}
+  .containerFilter {
+    margin-top: 20px;
+    overflow: hidden;
+    display: grid;
+    justify-content: space-around;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5%;
+  }
+
+  .btn:hover {
+    background-color: rgb(219, 197, 0);
+  }
+
+  .btn.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .btn.active:hover{
+    background-color: rgb(219, 197, 0);
+  }
+
+/* configurações páginas de produtos específicos */
+main .product{
+    height: 600px;
+    border-radius: 5%;
+    margin-right: 50px;
+    float: left;
+}
+#ir-mapa{
+    float: right;
+}
+
+/* configurações "conscientize-se/bee aware" */
+main .bee-aware .causes{
+    background-color: #9476762a;
+    margin-left: -300px;
+    margin-right: 35px;
+    border-radius: 3%;
+    align-items: inherit;
+}
+#img-causes{
+    float: right;
+    height: 614px;
+    margin-right: -50px;
+    border-radius: 10%;
+}
+#title-causes{
+    margin-top: 70px;
+    margin-bottom: 1px;
+    padding-top: 45px;
+    text-align: center;
+}
+#text-causes{
+    margin-right: 450px;
+    margin-left: 310px;
+    padding-bottom: 35px;
+    line-height: 45px;
+    text-align: justify;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#info{
+    align-items: center;
+}
+main .bee-aware .consequences{
+    background-color: #e6d0a886;
+    margin-left: 150px;
+    margin-right: -85px;
+    align-items: inherit;
+    border-radius: 3%;
+}
+#title-consequences{
+    margin-top: 100px;
+    margin-bottom: 1px;
+    padding-top: 45px;
+    text-align: center;
+}
+#text-consequences{
+    margin-left: 300px;
+    margin-right: 110px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    line-height: 45px;
+    text-align: justify;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#img-consequences{
+    height: 565px;
+    float: left;
+    border-radius: 50%;
+}
+#img-solutions{
+    margin-top: 115px;
+    float: right;
+    height: 500px;
+    vertical-align: middle;
+    border-radius: 7%;
+}
+#title-solutions{
+    margin-bottom: -10px;
+}
+#text-solutions{
+    margin-right: 800px;
+    padding-bottom: 30px;
+    line-height: 45px;
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+/* configurações cabeçalho e rodapé */
+
+.container-fluid{
+    background-color: rgb(240, 209, 34);
+}
+.nav-item{
+   width: 182px;
+   text-align: right;
+   margin-right: 70px;
+   margin-left: 50px;
+   font-weight: bold;
+   font-size: 20px;
+  
+}
+.nav-item:hover{
+   -webkit-transform: scale(1.3);
+   -ms-transform: scale(1.3);
+   transform: scale(1.3);
+}
+.seach-img{
+   margin: 1%;
+}
+.config-img{
+   margin:1%;
+}
+.user-img{
+   margin: 1%;
+}
+
+#footer{
+    background: #000;
+    color: rgba(255, 255, 255, 0.59);
+    font-size: 14px;
+    padding: 60px 0 20px;
+    height: 480px;
+    margin-top:200px;
+}
+.footer p{
+    color:#8A8A8A;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom:20px ;
+}
+
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+margin-top: 20px;
+
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+/* configurações carrossel */
+.carousel-item{
+    height: 32rem; 
+    background-color: rgba(240, 238, 238, 0.24);
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    position: relative;
+}
+#imgscarousel{
+    width:375px;
+    height: 812px;
+    border-radius: 10px;
+    justify-content: right;
+    margin-bottom: 50px;
+    align-items: right;
+    margin-left: 1000px;
+    position: absolute;
+}
+#imgscarousel2{
+    width: 375px;
+    height: 612px;
+    justify-content: right;
+    margin-top: 40px;
+    align-items: right;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.carouselinner{
+    width: 1324px;
+    height: 543px;
+
+}
+
+.container{
+    position:absolute;
+    text-align: center;
+    bottom: 0;
+    left:0;
+    right: 0;
+    padding-bottom: 50px;
+   
+}
+#textocarrosel{
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:769px;
+    height: 301px;
+    margin-left: 23px;
+    margin-top: 560px;
+}
+.carousel-control-prev{
+    margin-top: 200px;
+   
+}
+
+.carousel-control-next{
+    margin-top: 200px;
+}
+/*------3 BOLINHAS-----*/
+.navigation{
+    position: absolute;
+    top: 470px;
+    bottom:6px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    width: 50px;
+    height: 21px;
+    }
+    
+    .bar{
+    width:18px;
+    height: 17px;
+    border: 2px solid rgb(77, 76, 76);
+    margin: 6px;
+    border-radius:700%;
+    cursor: pointer;
+    transition: .4s;
+    background-color: #585b5c;
+    }
+    
+    .bar:hover{
+    background: rgba(161, 157, 157, 0.605);
+    }
+    
+    inputt{
+    display: none;
+    }
+  
+/*------//3 BOLINHAS-----*/
+
+/* configurações dropdown */
+.dropbtn {
+    background-color: rgb(240, 209, 34);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(240, 209, 34);
+    }
+    
+    #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    #myInput:focus {outline: 3px solid #ddd;}
+    
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+
+/* configurações mapa */
+.mapa{
+    justify-content: center;
+    align-items: center;
+    margin-left:420px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .col-lg-3{
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+  }
+  .cardmap{
+    height: 500px;
+    
+     border: #000;
+  }
+  .card{
+    border-radius: 15px;
+    height: 274;
+  
+  }
+  
+  .card-title{
+    margin-right: 180px;
+    background-color: #585b5c36;
+    border-radius: 18px;
+    color: #000;
+    position: absolute;
+    padding: 8px;
+  }
+
+  .card-text{
+    margin-left: 110px;
+    margin-right: 70px;
+    padding-bottom: 35px;
+    line-height: 45px;
+    font-size: larger;
+    letter-spacing: 2px;
+    width: 750px;
+  }

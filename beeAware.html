@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title-name">Conscientizzze-se</title>
+    <style>
+      body div{
+        text-align: center;
+        
+      }
+      button#bandeira{
+        
+  
+        border: none;
+        background-color: transparent;
+  
+      }
+      </style>
+  
+    <!--Adicionar o ícone na aba da guia-->
+    <link rel="shortcut icon" href="images/img1/bee.svg" type="image/x-icon">
+   
+  
+    <!--Link para CSS do Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <!-- CSS  -->
+    
+    <link rel="stylesheet" href="css\styleSara.css" />
+  </head>
+  
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!--Alteração do posicionamento do menu saduiche: esquerda-direita-->
+      <div class="container-fluid" style="justify-content: right;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar" href="main.html"><img src="img/logo bumblebee transparência.png" height="100px"width="100px" alt=""></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="products.html"class="nav-link " aria-current="page" >Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="mapa.html"class="nav-link" >Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a href="beeAware.html"class="nav-link">Conscientizzze-se</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutUs.html"class="nav-link">Sobre Nós</a>
+            </li>
+  </ul>
+  
+  
+          <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"> <a href="#" class="seach-img"><img src="img-rafa/lupa.png" width="30px" height="30px"></a></button>
+   
+    <div id="myDropdown" class="dropdown-content">
+      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+      <a href="#sobrenos">Sobre nós</a>
+      <a href="#plantas">Plantas</a>
+      <a href="#conta">Conta</a>
+      <a href="#pagina-inicial">Pagina inicial</a>
+      <a href="#cadastro">Cadastro</a>
+      <a href="#support">Suporte tecnico</a>
+      <a href="#configs">Configurações</a>
+    </div>
+  </div>
+        <a href="configurações.html" class="config-img"><img src="img-rafa/colmeia-de-abelhas.png" width="30px" height="30px"></a>
+        <a href="login.html" class="user-img"><img src="img-rafa/account.png" width="30px" height="30px"></a>
+  
+      </div>
+    </div>
+  </div>
+  </div>
+  </nav>
+  <div>
+    <button onclick="traduzir()"><img id ="bandeira" src="img/united-states-flag.png" alt=""></button>
+  </div>    
+   
+    <main>
+      <h1 id="title-page">As abelhas estão sumindo</h1>
+      <div class="bee-aware">
+        <img id="img-causes" src="img/agrotoxicos3.jpg" alt="foto abelha em galho florido de cerejeira"/>
+       <div class="causes">
+        <h1 id="title-causes">Causas</h1>
+        <br />
+        <p id="text-causes">
+          A causa do desaparecimento desses insetos não está totalmente
+          esclarecida, mas sabe-se que não existe apenas uma única razão, e sim
+          vários fatores, ocasionados pelo impacto humano ou não.
+          <br />
+          Um estudo da Universidade de Harvard associa esse fenômeno com o uso
+          dos inseticidas derivados da nicotina. Ao entrar em contato com essa
+          substância, seja ao visitar uma flor contaminada ou por pulverização
+          aérea do agrotóxico, são gerados problemas de memória, o que dificulta
+          a navegação das abelhas, que se desorientam e perdem a capacidade de
+          retornar às colmeias, morrendo longe das mesmas.
+          <br />
+          <a href="https://revistabioika.org/pt/econoticias/post?id=17">
+            Saiba mais</a><br>
+            <a id="info" href="https://www.metropoles.com/materias-especiais/aviacao-agricola-no-brasil-setor-cresce-a-sombra-de-acidentes-e-agrotoxicos">
+              Agrotóxicos</a><br />
+        </p>
+      </div>
+    </div>
+      <div class="bee-aware">
+      <img id="img-consequences" src="/img/pexels-lisa-fotios-2047420.jpg" alt="imagem abelha pousada em broto de flor">
+      <div class="consequences">
+        <h1 id="title-consequences">Consequências</h1>
+        <br />
+        <p id="text-consequences">
+          Existem aproximadamente 369.000 espécies de plantas com flores no
+          planeta, 90% dessas plantas dependem da polinização por insetos.
+          <br /> Calcula-se ainda que 80% das culturas vegetais do mundo sejam
+          polinizadas por abelhas, a extinção ou redução destes polinizadores
+          tem um efeito direto sobre a saúde, a fauna, a flora, além da
+          viabilidade de culturas vegetais e põe em risco muitos ecossistemas,
+          antes tidos como seguros e garantidos. Essa extinção em grande escala
+          resultaria em menor variedade e quantidade de alimentos, tornando-se
+          impossível conseguir produzir alimentos suficientes para todos os
+          habitantes do planeta.
+          <br />
+          <a href="https://www.simplyflow.pt/qual-a-importancia-e-consequencias-da-extincao-das-abelhas/">
+            Saiba mais</a><br />
+        </p>
+      </div>
+    </div>
+    <div class="bee-aware">
+       
+      <div class="solutions">
+        <img id="img-solutions" src="img\pexels-timothy-paule-ii-2749847.jpg" alt="foto colmeia artificial pintada">
+          <h1 id="title-solutions">Possíveis soluções</h1>
+          <br />
+          <p id="text-solutions">
+                 Aprimorar os padrões regulatórios de pesticidas.
+            <br> Promover o manejo integrado de pragas 
+            <br> Incluir efeitos indiretos e subletais na avaliação de riscos de culturas geneticamente modificadas. 
+            <br> Regular o movimento dos polinizadores manejados entre os países. 
+            <br> Incentivar agricultores a utilizarem serviços ecossistêmicos, como polinização, ao invés de agroquímicos. 
+            <br> Reconhecer a polinização como um insumo agrícola 
+            <br> Apoiar sistemas agrícolas diversificados. 
+            <br> Conservar e restaurar os habitats de polinizadores 
+            <br> Monitorar polinizadores a longo prazo 
+            <br> Financiar pesquisas para intensificar práticas de agricultura orgânica, diversificada e ecologicamente correta.
+            <br />
+            <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2021/04/13/como-a-extincao-das-abelhas-coloca-em-risco-o-futuro-da-humanidade.htm">
+              Saiba mais</a><br />
+          </p>
+        </div>
+      </div>
+    </main>
+    <div id="footer">
+      <div class="row">
+        <div class="footer-col-2">
+  
+                <a href="main.html">  <img src="img\logo bumblebee transparência.png" width="125px"></a>  <br><br>
+  
+            <p>Nosso Objetivo É Levar A Beleza Das Flores Para Muitos.</p>
+  
+  
+  
+    </div>
+        <div class="footer-col-2">
+            <h3>LINKS ÚTEIS</h3>
+            <ul>
+  
+                <li>Postagem Do Blog</li>
+                <li>Política de Retorno</li>
+                <li>Seja Membro</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021 - Flower Bee</p>
+    </div>
+  
+    <!-- Link para biblioteca do Bootstrap via CDN (servidor remoto)-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+      <script>
+           
+      let a =0;
+      var img=document.querySelector("#bandeira");
+      function traduzir(){  
+        if(a == 0){
+                img.setAttribute('src', 'img/brazil-flag.png');
+                document.getElementById("title-name").textContent="Bee Aware"
+                document.getElementById("title-page").textContent="Bees are dying"
+                document.getElementById("title-causes").textContent="Causes"
+                document.getElementById("text-causes").textContent="To be frank, bees are disappearing because of humans."+ "According to Woodland Trust, the biggest causes of bee population decline include everything from habitat loss to climate change. We destroy natural habitats, forests, wildflower meadows, and many other areas that once held flower species necessary for bee survival."+
+               "The climate is warming, cooling, and all-around shifting in ways that many insect populations cannot cope with. Seasonal changes disrupt the delicate nesting behavior of bees and can prevent or confuse normal pollination and breeding patterns. Diseases, parasites, invasive species, and pesticides make up the rest of the culprits."
+               document.getElementById("title-consequences").textContent="Consequences"
+               document.getElementById("text-consequences").textContent="As humans, we are heavily reliant on bee populations. Honey and beeswax aside, the beloved black and yellow bugs basically provide our society with sources of food by pollinating fruits and vegetables. As our planet's pollinators, they provide about $15 billion of crops for the U.S. every year, according to the FDA, and if all populations died out, the results would be seriously disastrous."+
+              " If bees went extinct, it would be a domino effect in terms of ecosystem destruction. According to Britannica, plants wouldn't be able to repopulate without humans hand-pollinating them. The animals who eat those plants would then start to starve and die off, then their predators' numbers would start to dwindle, and so on."
+              document.getElementById("title-solutions").textContent="What can we do?"
+              var el = document.getElementById("text-solutions")
+                                             
+              el.innerHTML ="<p><br>Plant a bee garden<br>Go chemical-free for bees<br>Become a citizen scientist<br>Provide trees for bees<br>Create a bee bath<br>Build homes for native bees<br>Give beehives and native bees<br>Teach tomorrow’s bee stewards<br>Host a fundraiser<br>Support local beekeepers and organizations</p>"
+                a=1;
+        }else if(a==1){
+                img.setAttribute('src', 'img/united-states-flag.png');
+                document.getElementById("title-name").textContent="Concientizzze-se"
+                document.getElementById("title-page").textContent="As abelhas estão sumindo";
+                document.getElementById("title-causes").textContent="Causas"
+                document.getElementById("text-causes").textContent="A causa do desaparecimento desses insetos não está totalmente esclarecida, mas sabe-se que não existe apenas uma única razão, e sim vários fatores, ocasionados pelo impacto humano ou não."+
+                "Um estudo da Universidade de Harvard associa esse fenômeno com o uso dos inseticidas derivados da nicotina. Ao entrar em contato com essa substância, seja ao visitar uma flor contaminada ou por pulverização aérea do "+"agrotóxico, são gerados problemas de memória, o que dificulta a navegação das abelhas, que se desorientam e perdem a capacidade de retornar às colmeias, morrendo longe das mesmas."
+               document.getElementById("title-consequences").textContent="Consequências"
+               document.getElementById("text-consequences").textContent="Existem aproximadamente 369.000 espécies de plantas com flores no planeta, 90% dessas plantas dependem da polinização por insetos."+
+              "Calcula-se ainda que 80% das culturas vegetais do mundo sejam polinizadas por abelhas, a extinção ou redução destes polinizadores tem um efeito direto sobre a saúde, a fauna, a flora, além da viabilidade de culturas vegetais e põe em risco muitos ecossistemas, antes tidos como seguros e garantidos. Essa extinção em grande escala resultaria em menor variedade e quantidade de alimentos, tornando-se impossível conseguir produzir alimentos suficientes para todos os habitantes do planeta"
+              document.getElementById("title-solutions").textContent="Possíveis soluções"
+              document.getElementById("text-solutions").textContent="Aprimorar os padrões regulatórios de\n pesticidas."+
+                "\nPromover o manejo integrado de pragas"+
+                "\nIncluir efeitos indiretos e subletais na avaliação de riscos de culturas geneticamente modificadas."+
+                "\nRegular o movimento dos polinizadores manejados entre os países."+
+                "\nIncentivar agricultores a utilizarem serviços ecossistêmicos, como polinização, ao invés de agroquímicos."+
+                "\nReconhecer a polinização como um insumo agrícola"+
+                "\nApoiar sistemas agrícolas diversificados."+
+                "\nConservar e restaurar os habitats de polinizadores"+
+                "\nMonitorar polinizadores a longo prazo"+
+                "\nFinanciar pesquisas para intensificar práticas de agricultura orgânica, diversificada e ecologicamente"
+                a=0;
+        }
+        
+        }
+       
+    </script>
+          
+           
+      </script>
+        <script>
+          
+          function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+  
+        function filterFunction() {
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          div = document.getElementById("myDropdown");
+          a = div.getElementsByTagName("a");
+          for (i = 0; i < a.length; i++) {
+            txtValue = a[i].textContent || a[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              a[i].style.display = "";
+            } else {
+              a[i].style.display = "none";
+            }
+          }
+        }
+      </script>
+  </body>
+</html>

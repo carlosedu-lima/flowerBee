@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title-name">Sobre Nós</title>
+  <style>
+    body div{
+      text-align: center;
+      
+    }
+    button#bandeira{
+      
+
+      border: none;
+      background-color: transparent;
+
+    }
+    </style>
+
+  <!--Adicionar o ícone na aba da guia-->
+  <link rel="shortcut icon" href="images/img1/bee.svg" type="image/x-icon">
+ 
+
+  <!--Link para CSS do Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- CSS  -->
+  
+  <link rel="stylesheet" href="css\styleSara.css" />
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--Alteração do posicionamento do menu saduiche: esquerda-direita-->
+    <div class="container-fluid" style="justify-content: right;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar" href="main.html"><img src="img/logo bumblebee transparência.png" height="100px"width="100px" alt=""></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="products.html"class="nav-link " aria-current="page" >Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="mapa.html"class="nav-link" >Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a href="beeAware.html"class="nav-link">Conscientizzze-se</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutUs.html"class="nav-link">Sobre Nós</a>
+          </li>
+</ul>
+
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"> <a href="#" class="seach-img"><img src="img-rafa/lupa.png" width="30px" height="30px"></a></button>
+ 
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#sobrenos">Sobre nós</a>
+    <a href="#plantas">Plantas</a>
+    <a href="#conta">Conta</a>
+    <a href="#pagina-inicial">Pagina inicial</a>
+    <a href="#cadastro">Cadastro</a>
+    <a href="#support">Suporte tecnico</a>
+    <a href="#configs">Configurações</a>
+  </div>
+</div>
+      <a href="configurações.html" class="config-img"><img src="img-rafa/colmeia-de-abelhas.png" width="30px" height="30px"></a>
+      <a href="login.html" class="user-img"><img src="img-rafa/account.png" width="30px" height="30px"></a>
+
+    </div>
+  </div>
+</div>
+</div>
+</nav>
+<div>
+  <button onclick="traduzir()"><img id ="bandeira" src="img/united-states-flag.png" alt=""></button>
+</div>   
+
+    <main>
+      <div>
+      <h1>Bumblebee</h1><br /><br />
+    </div>
+        <div>
+          <img
+            id="logo"
+            src="img\logo bumblebee transparência.png"
+            alt="logo flower bee"
+          />
+          <h1 id="title-flower-bee">O Flower Bee</h1>
+          <br />
+          <p id="text-flower-bee">
+            Nosso intuito principal é o de melhorar o acesso a informações
+            relacionadas às floriculturas, fazendo isso de maneira criteriosa e
+            profissional. Buscamos informar com responsabilidade tudo o que
+            envolve flores e abelhas. <br />
+            Nossa missão é ampliar e aproximar o público do DF ao universo das
+            flores, por meio da produção de conteúdo de qualidade, procurando
+            conscientização sobre a extinção das abelhas.
+          </p>
+
+          <!-- Done-->
+        </div>
+
+        <img id="gif-apicultores" src="img/Beekeeping.gif" alt="gif apicultores" /><br />
+      <div class="flowerB">
+        <h1 id="title-origem">Nossa Origem</h1><br />
+        <p id="text-origem">
+          Você conhecia as floriculturas próximas à sua casa? Bem, nós não.<br />
+          O desejo de apoiar pequenos floricultores e facilitar a vida daqueles
+          que amam plantas foi o que nos moveu a criar o Flower Bee. <br />
+          Com um mapa afetivo, buscamos aumentar a conscientização sobre a extinção de insetos
+          polinizadores, além de informações sobre os cuidados necessários para com as
+          plantas. Desejamos ajudar o meio ambiente e assegurar um futuro
+          saudável da nossa própria maneira.<br /><br />
+          <!-- Did you know about the floricultures close to your house? Well, we didn’t. 
+The wish of supporting small entrepreneurships and making the life of those who love plants easier is what moved us to create Flower Bee.
+<br> With an affective map, we are looking for increasing conscientization about the extinction of pollinating insects, besides bringing information about the care needed with the plants. We want to help the environment and assure a healthy future in our own way. -->
+        </p>
+      </div>
+
+      <div class="about">
+        <h1 id="title-about">Quem Somos</h1>
+        <br /><br />
+
+        <div class="containerPeople">
+          <div>
+            <img
+              id="foto-membro"
+              src="img/desenhoKdu.png"
+              alt="foto carlos eduardo"
+            /><br /><br />
+            <h2 id="nome-membro">Carlos Eduardo</h2>
+            <br />
+          </div>
+          <div>
+            <img
+              id="foto-membro"
+              src="img/desenhoRafa.png"
+              alt="foto rafaella nogueira"
+            /><br /><br />
+            <h2 id="nome-membro">Rafaella Silva</h2>
+            <br />
+          </div>
+          <div>
+            <img
+              id="foto-membro"
+              src="img\desenhoBruno.png"
+              alt="foto bruno oliveira"
+            /><br /><br />
+            <h2 id="nome-membro">Bruno Oliveira</h2>
+            <br />
+          </div>
+          <div>
+            <img
+              id="foto-membro"
+              src="img\desenhoSara.png"
+              alt="foto sara lima"
+            /><br /><br />
+            <h2 id="nome-membro">Sara Lima</h2>
+            <br />
+          </div>
+          <div>
+            <img
+              id="foto-membro"
+              src="img\desenhoLuan.png"
+              alt="foto luan matheus"
+            /><br /><br />
+            <h2 id="nome-membro">Luan Matheus</h2>
+            <br />
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="footer">
+      <div class="row">
+        <div class="footer-col-2">
+  
+                <a href="main.html">  <img src="img\logo bumblebee transparência.png" width="125px"></a>  <br><br>
+  
+            <p>Nosso Objetivo É Levar A Beleza Das Flores Para Muitos.</p>
+  
+  
+  
+    </div>
+        <div class="footer-col-2">
+            <h3>LINKS ÚTEIS</h3>
+            <ul>
+  
+                <li>Postagem Do Blog</li>
+                <li>Política de Retorno</li>
+                <li>Seja Membro</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021 - Flower Bee</p>
+    </div>
+  
+    <script>
+      let a =0;
+      function traduzir(){
+        var img=document.querySelector("#bandeira");
+        if(a == 0){
+                img.setAttribute('src', 'img/brazil-flag.png');
+                document.getElementById("title-name").textContent="About Us"
+                document.getElementById("title-flower-bee").textContent="The Flower Bee"
+                document.getElementById("text-flower-bee").textContent="Our main goal is to make information related to floricultures more accessible, in a careful and professional way.  We intend to inform with responsibility everything related to bees and flowers."+
+                "Our mission is to expand and bring closer the DF public to the flower universe, by producing quality content about the bees extinction.";
+                document.getElementById("title-origem").textContent="Our Origins"
+                document.getElementById("text-origem").textContent=
+                " Did you know about the floricultures close to your house? Well, we didn’t."+ 
+                "The wish of supporting small entrepreneurships and making the life "+" of those who love plants easier is what moved us to create Flower Bee."+
+                "With an affective map, we are looking for increasing conscientization about the extinction of pollinating insects, besides bringing information about the care needed with the plants. We want to help the environment and assure a healthy future in our own way."
+                document.getElementById("title-about").textContent="About Us"
+                a=1;
+        }else if(a==1){
+                img.setAttribute('src', 'img/united-states-flag.png');
+                document.getElementById("title-name").textContent="Sobre Nós"
+                document.getElementById("title-flower-bee").textContent="O Flower Bee"
+                document.getElementById("text-flower-bee").textContent="Nosso intuito principal é o de melhorar o acesso a informações relacionadas às floriculturas, fazendo isso de maneira criteriosa e profissional. Buscamos informar com responsabilidade tudo o que envolve flores e abelhas."+
+                "Nossa missão é ampliar e aproximar o público do DF ao universo das flores, por meio da produção de conteúdo de qualidade, procurando conscientização sobre a extinção das abelhas."
+                document.getElementById("title-origem").textContent="Nossa Origem"
+                document.getElementById("text-origem").textContent=
+                "Você conhecia as floriculturas próximas à sua casa? Bem, nós não."+
+                "O desejo de apoiar pequenos floricultores e facilitar a vida daqueles que amam plantas foi o que nos moveu a criar o Flower Bee."+
+                "Com um mapa afetivo, buscamos aumentar a conscientização sobre a extinção de insetos polinizadores, além de informações sobre os cuidados necessários para com as plantas. Desejamos ajudar o meio ambiente e assegurar um futuro saudável da nossa própria maneira."
+                document.getElementById("title-about").textContent="Quem Somos"
+                a=0;
+        }
+        
+        }
+       
+    </script>
+
+
+
+    <!-- Link para biblioteca do Bootstrap via CDN (servidor remoto)-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+      <script>
+        let a =0;
+        var img=document.querySelector("#bandeira");
+        
+  function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      function filterFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDropdown");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+          txtValue = a[i].textContent || a[i].innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+          } else {
+            a[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+  
+   
+  </body>
+</html>

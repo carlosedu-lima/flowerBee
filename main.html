@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    body div{
+      text-align: center;
+      
+    }
+    button#bandeira{
+      
+
+      border: none;
+      background-color: transparent;
+
+    }
+    </style>
+
+  <!--Adicionar o ícone na aba da guia-->
+  <link rel="shortcut icon" href="images/img1/bee.svg" type="image/x-icon">
+ 
+
+  <!--Link para CSS do Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- CSS  -->
+  
+  <link rel="stylesheet" href="css\styleSara.css" />
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--Alteração do posicionamento do menu saduiche: esquerda-direita-->
+    <div class="container-fluid" style="justify-content: right;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar" href="main.html"><img src="img/logo bumblebee transparência.png" height="100px"width="100px" alt=""></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="products.html"class="nav-link " aria-current="page" >Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="mapa.html"class="nav-link" >Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a href="beeAware.html"class="nav-link">Conscientizzze-se</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutUs.html"class="nav-link">Sobre Nós</a>
+          </li>
+</ul>
+
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"> <a href="#" class="seach-img"><img src="img-rafa/lupa.png" width="30px" height="30px"></a></button>
+ 
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#sobrenos">Sobre nós</a>
+    <a href="#plantas">Plantas</a>
+    <a href="#conta">Conta</a>
+    <a href="#pagina-inicial">Pagina inicial</a>
+    <a href="#cadastro">Cadastro</a>
+    <a href="#support">Suporte tecnico</a>
+    <a href="#">Configurações</a>
+  </div>
+</div>
+      <a href="configurações.html" class="config-img"><img src="img-rafa/colmeia-de-abelhas.png" width="30px" height="30px"></a>
+      <a href="login.html" class="user-img"><img src="img-rafa/account.png" width="30px" height="30px"></a>
+
+    </div>
+  </div>
+</div>
+</div>
+</nav>
+<div>
+  <button onclick="traduzir()"><img id ="bandeira" src="img/united-states-flag.png" alt=""></button>
+</div>    
+ 
+  <main> 
+    <!--Área do carousel-->
+
+    <div id="exemploCarousel" class="carousel slide" data-ride="carousel">
+      <div class="navigation">
+        <button  class=" bar"type="button" data-bs-target="#exemploCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button class=" bar"type="button" data-bs-target="#exemploCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button class=" bar"type="button" data-bs-target="#exemploCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+  
+      <div class="carousel-inner">
+        <!--Primeiro slide-->
+        <div class="carousel-item active" style="background-image: url(imagens/);">
+          <div class="container">
+            <div id="textocarrosel"> <h1> PLANTAS ORNAMENTAIS</h1>
+            <p>
+              Conheça diferentes espécies de plantas ornamentais, descubra em quais ambientes elas se encaixam melhor e aprenda a cuidar delas
+            </p>
+          </div>
+          </div><div id="imgscarousel">
+          <img src="img\pexels-karolina-grabowska-4210811.jpg" alt="foto flor branca">
+        </div>
+        </div>
+   
+        <!--Segundo slide-->
+        <div class="carousel-item" style="background-image: url(imagens/);">
+          <div class="container">
+            <div id="textocarrosel"><h1> LOCALIZE</h1>
+            <p>
+              Veja onde está localizada a floricultura mais próxima a você
+            </p>
+          </div>
+        </div><div id="imgscarousel2">
+          <img src="img\Directions-bro.svg" alt="">
+        </div>
+      </div>
+<!--Terceiro slide-->
+<div class="carousel-item" style="background-image: url(imagens/);">
+  <div class="container">
+    <div id="textocarrosel"><h1> CONSCIENTIZE-SE</h1>
+    <p>
+      Saiba como a extinção das abelhas causa impactos na natureza e aos seres humanos
+    </p>
+  </div>
+</div>  <div id="imgscarousel2">  <img src="img\Beekeeping-pana.svg" alt=""></div>
+</div>
+
+
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#exemploCarousel" data-bs-slide="prev">
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="gray" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+</svg>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#exemploCarousel" data-bs-slide="next">
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="gray" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+</svg>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+
+<br>
+
+ <h1 id="title">Conheça nossos produtos:</h1> <br>
+    <div class="containerProducts">
+      <div class="button-product">
+        <a href="/products.html">
+          <img
+            id="foto-produto"
+            src="img/pexels-brigitte-tohm-350349.jpg"
+            alt="foto flores - tulipa"/>
+          <h3 id="flores">Flores</h3>
+        </a>
+      </div><div class="button-product">
+          <a href="/products.html">
+            <img
+              id="foto-produto"
+              src="img/pexels-timi-keszthelyi-3126421.jpg"
+              alt="foto vasos de plantas de interior"/>
+            <h3 id="interior">Interior</h3>
+          </a>
+        </div><div class="button-product">
+          <a href="/products.html">
+            <img
+              id="foto-produto"
+              src="img/pexels-elle-hughes-1549201.jpg"
+              alt="foto vasos de plantas exterior"/>
+            <h3 id="exterior">Exterior</h3>
+          </a>
+        </div>
+    </div>
+    <div class="containerProducts">
+      <div class="button-product">
+        <a href="/products.html">
+          <img
+            id="foto-produto"
+            src="img/pexels-cottonbro-4503745.jpg"
+            alt="foto vasos de temperos"/>
+          <h3 id="comestiveis">Comestíveis</h3>
+        </a>
+      </div><div class="button-product">
+          <a href="/products.html">
+            <img
+              id="foto-produto"
+              src="img/pexels-9925546.jpg"
+              alt="foto cesta de flores rosas"/>
+            <h3 id="cestas">Cestas</h3>
+          </a>
+        </div><div class="button-product">
+          <a href="/products.html">
+            <img
+              id="foto-produto"
+              src="img/pexels-9925479.jpg"
+              alt="foto buquê de flores azuis"/>
+            <h3 id="ocasioes">Ocasiões</h3>
+          </a>
+        </div>
+    </div>
+  </main>
+
+<div id="footer">
+    <div class="row">
+      <div class="footer-col-2">
+
+              <a href="main.html">  <img src="img\logo bumblebee transparência.png" width="125px"></a>  <br><br>
+
+          <p>Nosso Objetivo É Levar A Beleza Das Flores Para Muitos.</p>
+
+
+
+  </div>
+      <div class="footer-col-2">
+          <h3>LINKS ÚTEIS</h3>
+          <ul>
+
+              <li>Postagem Do Blog</li>
+              <li>Política de Retorno</li>
+              <li>Seja Membro</li>
+          </ul>
+      </div>
+  </div>
+  <hr>
+  <p class="copyright">Copyright 2021 - Flower Bee</p>
+  </div>
+
+  <!-- Link para biblioteca do Bootstrap via CDN (servidor remoto)-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+    <script>
+      let a =0;
+      var img=document.querySelector("#bandeira");
+      function traduzir(){  
+        if(a == 0){
+                img.setAttribute('src', 'img/brazil-flag.png');
+                document.getElementById("title").textContent="Know our products:"
+                document.getElementById("flores").textContent="Flowers"
+                document.getElementById("interior").textContent="Interior"
+                document.getElementById("exterior").textContent="Outside"
+                document.getElementById("comestiveis").textContent="Edibles"
+                document.getElementById("cestas").textContent="Baskets"
+                document.getElementById("ocasioes").textContent="Occasions"
+                a=1;
+        }else if(a==1){
+                img.setAttribute('src', 'img/united-states-flag.png');
+                document.getElementById("title").textContent="Conheça nossos produtos:";
+                document.getElementById("flores").textContent="Flores"
+                document.getElementById("interior").textContent="Interior"
+                document.getElementById("exterior").textContent="Exterior"
+                document.getElementById("comestiveis").textContent="Comestíveis"
+                document.getElementById("cestas").textContent="Cestas"
+                document.getElementById("ocasioes").textContent="Ocasiões"
+                a=0;
+        }
+        
+        }
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      function filterFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDropdown");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+          txtValue = a[i].textContent || a[i].innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+          } else {
+            a[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+</body>
+</html>
